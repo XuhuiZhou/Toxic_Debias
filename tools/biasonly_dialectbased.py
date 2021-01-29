@@ -29,7 +29,6 @@ def get_features(df):
     his = df["hispanic"].tolist()
     other = df["other"].tolist()
     return [[float(i[0]), float(i[1]), float(i[2]), float(i[3])] for i in zip(aav, his, other, white)]
-    
 
 # Read in data
 data = pd.read_csv(training_path)
