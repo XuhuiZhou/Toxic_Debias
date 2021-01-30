@@ -4,6 +4,18 @@ for Toxic Language Detection". In particular, it contains the
 code to fine-tune RoBERTa and RoBERTa with the ensemble-based method in the
 task of toxic language prediction. It also contains the index of data points
 that we used in the experiments. 
+## Citation:
+
+```bibtex
+@inproceedings{Zhou2021ToxicDebias,
+            author={Xuhui Zhou, Maarten Sap, Swabha Swayamdipta, Noah A. Smith
+            and Yejin Choi},
+            title={Challenges in Automated Debiasing for Toxic Language
+            Detection},
+            booktitle={EACL},
+            year={2021}
+        }
+```
 
 ## Overview
 ### Tasks
