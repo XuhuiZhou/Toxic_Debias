@@ -29,6 +29,8 @@ in
 
 * You can find the index of the training data with different data selection
   methods in `data/founta/train`
+* You can find a complete list of entries of data that we need for experiments
+  in `data/demo.csv`
 * Out-of-distribution (OOD) data, the two OOD datasets we use are publicly
   available:
     * ONI-adv: This dataset is the test set of the work ["Build it Break it Fix
