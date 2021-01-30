@@ -4,6 +4,7 @@ for Toxic Language Detection". In particular, it contains the
 code to fine-tune RoBERTa and RoBERTa with the ensemble-based method in the
 task of toxic language prediction. It also contains the index of data points
 that we used in the experiments. 
+<!---
 ## Citation:
 
 ```bibtex
@@ -16,7 +17,7 @@ that we used in the experiments.
             year={2021}
         }
 ```
-
+-->
 ## Overview
 ### Tasks
 This repo contains code to detect toxic language with RoBERT/ ensemble-based
