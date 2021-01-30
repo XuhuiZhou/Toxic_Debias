@@ -67,12 +67,12 @@ sh run_toxic_debias.sh
 ```
 
 You need to obtain the bias-only model first in order to train the ensemble
-model. Feel free to use the files we provided in the folder `tools`.
+model. Feel free to use files we provided in the folder `tools`.
 
 ### Model Evaluation & Measuring Models' Bias
 
 You can use the same fine-tuning script to obtain predictions from models. 
 
 The measuring bias script takes the predictions as input and output models'
-performance and lexical/dialectal bias scores. The scripts are available in the
+performance and lexical/dialectal bias scores. The script is available in the
 `src` folder.
