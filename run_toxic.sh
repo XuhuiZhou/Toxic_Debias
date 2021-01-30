@@ -1,17 +1,11 @@
 #!/bin/bash
 
-export GLUE_DIR=toxic_language
+export TOXIC_DIR=/toxic/language/data
 export TASK_NAME=Toxic
 
-if [ "$1" != "" ]; then
-    export DATA=$1
-    export RAN=$2
-    export MODEL_DIR=$3
-else
-    export DATA=advToxicityFilt_v0.2/random_easy 
-    export RAN=12
-    export MODEL_DIR=n_toxic_model_randomeasy_s12_lr1e
-fi
+export DATA=$1
+export RAN=$2
+export MODEL_DIR=$3
 
 python run_toxic.py \
   --model_type roberta \
@@ -24,10 +18,10 @@ python run_toxic.py \
   --seed $RAN \
   --logging_steps 1000 \
   --overwrite_output_dir \
-  --data_dir $GLUE_DIR/$DATA \
+  --data_dir $TOXIC_DIR/$DATA \
   --max_seq_length 128 \
   --per_gpu_train_batch_size 8 \
   --per_gpu_eval_batch_size 8 \
   --learning_rate 1e-5 \
   --num_train_epochs 3.0 \
-  --output_dir /gscratch/cse/xuhuizh/$MODEL_DIR
+  --output_dir $MODEL_DIR

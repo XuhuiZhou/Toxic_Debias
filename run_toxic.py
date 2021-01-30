@@ -1,4 +1,10 @@
 # coding=utf-8
+
+# This code was copied from
+# (https://github.com/huggingface/transformers/blob/master/examples/run_glue.py)
+# and amended by Xuhui Zhou. All modifications are licensed under Apache 2.0 as is the
+# original code. See below for the original license:
+
 # Copyright 2018 The Google AI Language Team Authors and The HuggingFace Inc. team.
 # Copyright (c) 2018, NVIDIA CORPORATION.  All rights reserved.
 #

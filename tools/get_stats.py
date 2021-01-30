@@ -22,8 +22,6 @@ def pearson_tx(word_list):
     df_tr['word'] = df_tr["tweet"].apply(idtyRe.findall).astype(bool)
     nums = len(df_tr[df_tr.word])
     toxic_ratio = (len(df_tr[(df_tr.ND_label==1) & df_tr.word])/len(df_tr[df_tr.word]))
-    #return nums, toxic_ratio, stats.pearsonr(df_tr.ND_label, df_tr.word), stats.pearsonr(1-df_tr.ND_label, df_tr.word)
-    #return stats.pointbiserialr(df_tr.ND_label, df_tr.word)
     return stats.pearsonr(df_tr.ND_label, df_tr.word)[0]
 
 #print('data length:', len(df_tr))

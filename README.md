@@ -1,5 +1,6 @@
 # Toxic Language Debiasing
-This repo contains the code for our paper "". In particular, it contains the
+This repo contains the code for our paper "Challenges in Automated Debiasing
+for Toxic Language Detection". In particular, it contains the
 code to fine-tune RoBERTa and RoBERTa with the ensemble-based method in the
 task of toxic language prediction. It also contains the index of data points
 that we used in the experiments. 
@@ -8,7 +9,7 @@ that we used in the experiments.
 ### Tasks
 This repo contains code to detect toxic language with RoBERT/ ensemble-based
 ROBERTa. Our experiments mainly focus on the dataset from 
-[Large Scale Crowdsourcing and Characterization of Twitter Abusive Behavior](https://ojs.aaai.org/index.php/ICWSM/article/view/14991).
+["Large Scale Crowdsourcing and Characterization of Twitter Abusive Behavior"](https://ojs.aaai.org/index.php/ICWSM/article/view/14991).
 
 ### Code
 Our implementation exists in the `.\src` folder. The `run_toxic.py` file
