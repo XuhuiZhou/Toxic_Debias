@@ -1,6 +1,6 @@
 # Toxic Language Debiasing
-This repo contains the code for our paper "Challenges in Automated Debiasing
-for Toxic Language Detection". In particular, it contains the
+This repo contains the code for our paper "[Challenges in Automated Debiasing
+for Toxic Language Detection](https://arxiv.org/pdf/2102.00086.pdf)". In particular, it contains the
 code to fine-tune RoBERTa and RoBERTa with the ensemble-based method in the
 task of toxic language prediction. It also contains the index of data points
 that we used in the experiments. 
