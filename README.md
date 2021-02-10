@@ -53,7 +53,7 @@ Attack"](https://www.aclweb.org/anthology/D19-1461/)
 
 * Our word list for lexical bias is in the file: `./data/word_based_bias_list.csv`
 * Since we do not encourage building systems based on our relabeling dataset,
-  we decide not to release the dataset publicly. For research purpose, please
+  we decide not to release the relabeling dataset publicly. For research purpose, please
   contact the first author for the access of the dataset.
 
 ## Experiments
