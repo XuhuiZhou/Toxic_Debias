@@ -1,3 +1,4 @@
+import re
 import csv
 import sys
 import pandas as pd
@@ -32,11 +33,11 @@ def select_re_df(df, type=None):
     if type=='aav':
         return df[df.dialect_argmax=='aav']
     elif type=='noi':
-        return df[df["tweet"].apply(idtyRe.findall).astype(bool)
+        return df[df["tweet"].apply(idtyRe.findall).astype(bool)]
     elif type=='oi':
-        return df[df["tweet"].apply(oiRe.findall).astype(bool)
+        return df[df["tweet"].apply(oiRe.findall).astype(bool)]
     elif type=='oni':
-        return df[df["tweet"].apply(oniRe.findall).astype(bool)
+        return df[df["tweet"].apply(oniRe.findall).astype(bool)]
     else:
         return df
 
